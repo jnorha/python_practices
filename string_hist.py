@@ -14,4 +14,4 @@ def get_input():
 x = get_input()
 
 print histogram(x)
-print histogram("bananas")
+
