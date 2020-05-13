@@ -4,7 +4,7 @@ def histogram(s):
     d = dict()
     for i in s:
         val = d.get(i, 0)
-        d[i] = + 1
+        d[i] = val + 1
     return d
 
 def get_input():
@@ -14,4 +14,3 @@ def get_input():
 x = get_input()
 
 print histogram(x)
-
